@@ -1,0 +1,19 @@
+mpv --Video player
+i3  --Window manager
+i3bar 
+i3lock
+i3status --
+feh -- setting wallpaper
+i3blocks
+awesomeFonts
+sxiv -- imageviewer
+youtube-dl -- youtube video downloader
+dmenu -- menue
+nano -- text editor
+acpilight -- a backward-compatible xbacklight replacement based on ACPI
+top -- process status
+powertop -- battry manager
+
+
+surf --Web browser
+slstatus --lightweight status line generator

